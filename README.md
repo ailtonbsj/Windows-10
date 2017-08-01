@@ -2,10 +2,6 @@
 
 This is an fork of B00merang Project with my modifications
 
-![Windows-10](screenshot1.png)
-
-![Windows-10-Blue](screenshot2.png)
-
 **Distributor :** [B00merang Theming](https://github.com/B00merang-Project)
 
 **License :** GPL v3
