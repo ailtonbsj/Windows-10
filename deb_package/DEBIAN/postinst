@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /usr/share/lubuntu/wallpapers/
+if [ -f 1804-lubuntu-default-wallpaper.png ]; then
+	mv 1804-lubuntu-default-wallpaper.png lubuntu-original-wallpaper.png
+	mv win10_wallpaper.png 1804-lubuntu-default-wallpaper.png
+fi
