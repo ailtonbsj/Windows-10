@@ -6,3 +6,11 @@ if [ -f /usr/share/lubuntu/wallpapers/1804-lubuntu-default-wallpaper.png ]; then
 		mv lubuntu-original-wallpaper.png 1804-lubuntu-default-wallpaper.png
 	fi
 fi
+
+if [ -f /usr/share/lubuntu/wallpapers/2004-lubuntu-wire-humming.png ]; then
+	cd /usr/share/lubuntu/wallpapers/
+	if [ -f lubuntu-original-wallpaper.png ]; then
+		mv lubuntu-original-wallpaper.png 2004-lubuntu-wire-humming.png
+		rm -rf /home/*/.cache
+	fi
+fi
